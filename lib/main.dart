@@ -44,6 +44,9 @@ import 'pertemuan7/latihan7.9.dart' as p79;
 import 'pertemuan7/latihan7.10.dart' as p710;
 import 'pertemuan7/latihan7.11.dart' as p711;
 
+// UTS Praktikum
+import 'uts-praktikum/login_screen.dart' as uts;
+
 void main() {
   runApp(const MainApp());
 }
@@ -141,6 +144,12 @@ class MenuUtama extends StatelessWidget {
         {
           'title': 'Latihan 7.11 - Snack Bar Custom (Notification)',
           'page': p711.MyApp(),
+        },
+      ],
+      'UTS Praktikum': [
+        {
+          'title': 'PAKET A - Jualle POS App',
+          'page': const uts.LoginScreen(),
         },
       ],
     };
